@@ -1,0 +1,29 @@
+.task-title{
+    width: 100%;
+    text-align: center;
+}
+.task-block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.task-item{
+    color: white;
+    width: 100px;
+    margin-bottom: 10px;
+    font-size:20px;
+    border-radius: 5px;
+    text-align: center;
+    background: #002407;
+    background: linear-gradient(90deg, rgba(8, 36, 0, 0.75) 0%, rgba(9, 121, 18, 0.74) 35%, rgba(115, 255, 0, 0.7) 100%);
+}
+.task-item-reverse{
+    color: white;
+    width: 100px;
+    margin-bottom: 10px;
+    font-size:20px;
+    border-radius: 5px;
+    text-align: center;
+    background: #630101;
+    background: linear-gradient(90deg, rgba(112, 15, 15, 0.75) 0%, rgba(200, 18, 18, 0.74) 35%, rgba(255, 0, 0, 0.7) 100%);
+}
