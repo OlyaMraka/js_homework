@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Inter", system-ui, sans-serif;
+    background: #0d1117;
+    color: #cddc39;
+}
+
+.recipe_container {
+    margin-bottom: 20px;
+    background: linear-gradient(145deg, #161b22, #1f242e);
+    border-radius: 16px;
+    border: 1px solid #2a2f38;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 255, 128, 0.15);
+    transition: 0.3s, box-shadow 0.3s;
+}
+
+.recipe_container:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0 15px 4px rgba(0, 255, 128, 0.6), 0 8px 25px rgba(255, 255, 0, 0.2);
+}
+
+.recipe_header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 12px;
+    color: #a5d6a7;
+}
+
+.instructions_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.ingredients_list,
+.instructions_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ingredients_list li,
+.instructions_list li {
+    background: linear-gradient(135deg, #2b3a2e, #1f2a1f);
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: #b2fab4;
+    font-size: 14px;
+    margin-bottom: 6px;
+    border-left: 4px solid #ffeb3b;
+    transition: all 0.2s ease;
+}
+
+.ingredients_list li:hover,
+.instructions_list li:hover {
+    background: linear-gradient(135deg, #69f0ae, #cfff80);
+    color: #0d1117;
+    box-shadow: 0 0 8px #00ff7f;
+}
+
+.other_details {
+    margin-top: 12px;
+    background: linear-gradient(145deg, #1a1f26, #20262e);
+    border-radius: 12px;
+    padding: 14px;
+    border: 1px solid #2f3a42;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #c8e6c9;
+}
+
+.other_details p {
+    border-left: 3px solid #b2fab4;
+    padding-left: 8px;
+}
+
+.tags_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.tags_container p {
+    background: linear-gradient(90deg, #69f0ae, #cfff80);
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #0d1117;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+}
+
+.tags_container p:hover {
+    background: linear-gradient(90deg, #00c853, #ffff00);
+    box-shadow: 0 0 8px #00ff7f, 0 0 6px #ffff80;
+    color: #fff;
+}
+
+.outcome_image {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid #69f0ae;
+    transition: 0.3s, box-shadow 0.3s;
+}
+
+.outcome_image:hover {
+    box-shadow: 0 0 20px #00ff7f, 0 0 12px #ffff00;
+}
+
+.outcome_details {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #c8e6c9;
+}
+
+.outcome_container div p {
+    background: linear-gradient(135deg, #2b3a2e, #1f2a1f);
+    padding: 4px 8px;
+    border-radius: 6px;
+    color: #69f0ae;
+    font-size: 13px;
+    margin: 0;
+    display: inline-block;
+    margin-right: 6px;
+    margin-bottom: 4px;
+    transition: all 0.3s ease;
+}
+
+.outcome_container div p:hover {
+    background: linear-gradient(135deg, #00c853, #cfff80);
+    box-shadow: 0 0 6px #00ff7f, 0 0 6px #ffff80;
+    color: #fff;
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    background: linear-gradient(145deg, #161b22, #1f242e);
+    padding: 16px 24px;
+    border-radius: 12px;
+    border: 1px solid #2a2f38;
+    box-shadow: 0 4px 12px rgba(0, 255, 128, 0.2);
+}
+
+.footerContainer p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #cfff80;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.footerContainer p:hover {
+    color: #00ff7f;
+    text-shadow: 0 0 6px #00ff7f;
+}
